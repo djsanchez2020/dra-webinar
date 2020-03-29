@@ -1071,6 +1071,12 @@ footer {
   margin: 0px;
 }
 
+.ponentes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .ponente {
   border-radius: 50%;
   object-fit: cover;
