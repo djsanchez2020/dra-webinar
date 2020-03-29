@@ -942,6 +942,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  #home {
+    height: 100vh;
+  }
   .banner-container {
     height: 700px;
   }
