@@ -7,11 +7,11 @@ Theme by: WebThemez.com
 Note: Please use our back link in your site
 */
 $(function () {
-  var endDate = "March 29, 2020 20:09:00";
-  // var endDate = "April  02, 2020 19:40:00";
+  // var endDate = "March 29, 2020 20:09:00";
+  var endDate = "April  02, 2020 19:40:00";
   var webinarUrl = 'https://www.eztalks.com/j/84907669';
 
-  $('.countdown.simple').countdown({ date: endDate });
+  // $('.countdown.simple').countdown({ date: endDate });
 
   $('.countdown.styled').countdown({
     date: endDate,
@@ -25,19 +25,19 @@ $(function () {
     }
   });
 
-  $('.countdown.callback').countdown({
-    date: +(new Date) + 10000,
-    render: function (data) {
-      $(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
-    },
-    onEnd: function () {
-      console.log('redirect');
-      $(this.el).addClass('ended');
-      window.location.replace(webinarUrl);
-    }
-  }).on("click", function () {
-    $(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
-  });
+  // $('.countdown.callback').countdown({
+  //   date: +(new Date) + 10000,
+  //   render: function (data) {
+  //     $(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
+  //   },
+  //   onEnd: function () {
+  //     console.log('redirect');
+  //     $(this.el).addClass('ended');
+  //     window.location.replace(webinarUrl);
+  //   }
+  // }).on("click", function () {
+  //   $(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
+  // });
 
 
 
