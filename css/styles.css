@@ -999,7 +999,7 @@ footer {
 
 @media (max-width: 480px) {
   .banner-container {
-    height: 500px;
+    height: 100vh;
   }
   #home .heading h2 {
     font-size: 34px !important;
@@ -1043,6 +1043,7 @@ footer {
 
 @media (max-width: 320px) {
   .banner-container {
+    height: 100vh;
   }
   .grid .text-content {
     padding-left: 29%;
