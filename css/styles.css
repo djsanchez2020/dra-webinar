@@ -1127,3 +1127,10 @@ footer {
 .banner-container .heading strong {
   font-family: "Poppins LightItalic" !important;
 }
+
+.list-items {
+  margin-left: 4rem;
+}
+
+.list-items .list-item {
+}
