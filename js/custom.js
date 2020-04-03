@@ -9,7 +9,7 @@ Note: Please use our back link in your site
 $(function () {
   // var endDate = "March 29, 2020 20:09:00";
   var endDate = "April  02, 2020 19:40:00";
-  var webinarUrl = 'https://www.eztalks.com/j/84907669';
+  var webinarUrl = 'https://meet.jit.si/webinar-dra';
 
   // $('.countdown.simple').countdown({ date: endDate });
 
