@@ -8,8 +8,8 @@ Note: Please use our back link in your site
 */
 $(function () {
   // var endDate = "March 29, 2020 20:09:00";
-  var endDate = "April  02, 2020 19:40:00";
-  var webinarUrl = 'https://meet.jit.si/webinar-dra';
+  var endDate = "May  22, 2020 19:00:00";
+  var webinarUrl = 'https://meet.jit.si/webinar-4p';
 
   // $('.countdown.simple').countdown({ date: endDate });
 
