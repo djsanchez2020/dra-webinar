@@ -1134,3 +1134,14 @@ footer {
 
 .list-items .list-item {
 }
+
+
+.feature-media img{
+  border-radius: 8px;
+  box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.feature-media img:hover {
+  transform: scale(1.2);
+}
