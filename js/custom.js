@@ -107,10 +107,11 @@ var customScripts = {
 }
 $('document').ready(function () {
   $.backstretch([
-    "images/slide/3.jpg",
-    "images/slide/4.jpg",
-    "images/slide/2.jpg",
-    "images/slide/5.jpg"
+    "images/slide/9.jpg",
+    "images/slide/5.jpg",
+    "images/slide/6.jpg",
+    "images/slide/7.jpg",
+    "images/slide/8.jpg"
   ], { duration: 4000, fade: 1250 });
 
   customScripts.init();
